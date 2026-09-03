@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历 - 竞赛、论文与专利</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>个人简历</h1>
+            <p class="subtitle">竞赛 · 论文 · 专利</p>
+        </header>
+
+        <nav class="nav-tabs">
+            <button class="tab-button active" onclick="showTab('competitions')">竞赛</button>
+            <button class="tab-button" onclick="showTab('papers')">论文</button>
+            <button class="tab-button" onclick="showTab('patents')">专利</button>
+        </nav>
+
+        <!-- 竞赛 Section -->
+        <section id="competitions" class="tab-content active">
+            <h2>竞赛获奖</h2>
+            <div class="content-list">
+                <div class="item">
+                    <div class="item-header">
+                        <h3>2026中国高校计算机大赛移动应用创新赛华南赛区一等奖</h3>
+                        <span class="badge">一等奖</span>
+                    </div>
+                    <div class="item-details">
+                        <p class="item-description">
+                            在2026年中国高校计算机大赛移动应用创新赛中荣获华南赛区一等奖，项目展现了突出的技术创新和实用价值。
+                        </p>
+                        <div class="item-links">
+                            <a href="https://share.weiyun.com/xLiyH4Ko" target="_blank" class="link-button certificate-btn">
+                                📜 查看证书
+                            </a>
+                            <a href="https://github.com/WenxuanMa610/CardioMind-Al" target="_blank" class="link-button project-btn">
+                                🚀 项目链接
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 论文 Section -->
+        <section id="papers" class="tab-content">
+            <h2>学术论文</h2>
+            <div class="content-list">
+                <div class="item">
+                    <div class="item-header">
+                        <h3>在投论文</h3>
+                        <span class="badge">3篇</span>
+                    </div>
+                    <div class="item-details">
+                        <p class="item-description">
+                            目前有3篇学术论文正在投稿审核中，研究方向涵盖移动应用、人工智能等领域。
+                        </p>
+                        <p class="status-note">📋 审核中...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 专利 Section -->
+        <section id="patents" class="tab-content">
+            <h2>软件著作权</h2>
+            <div class="content-list">
+                <div class="item">
+                    <div class="item-header">
+                        <h3>已授权软件著作权</h3>
+                        <span class="badge">4项</span>
+                    </div>
+                    <div class="item-details">
+                        <p class="item-description">
+                            已获得4项软件著作权授权，涵盖多个应用领域和技术方向。
+                        </p>
+                        <p class="status-note">✅ 已授权</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 个人简历. 保留所有权利。</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
